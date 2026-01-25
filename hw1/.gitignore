@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Airflow logs
+logs/
+dag_id=*/
+dag_processor_manager/
+scheduler/
+
+# Docker env
+.env
+
+# Postgres volume
+postgres-db-volume/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Temp
+*.log
