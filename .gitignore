@@ -1,0 +1,70 @@
+# ======================
+# OS / System
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Python
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+.env
+
+# ======================
+# Jupyter
+# ======================
+.ipynb_checkpoints/
+
+# ======================
+# Airflow logs & runtime
+# ======================
+airflow/logs/
+*/airflow/logs/
+logs/
+*/logs/
+
+latest
+scheduler
+dag_processor_manager.log
+attempt*.log
+
+# ======================
+# Docker
+# ======================
+*.log
+docker-compose.override.yml
+
+# ======================
+# Data (raw inputs)
+# ======================
+data/raw/
+*/data/raw/
+
+# ======================
+# IDE / Editors
+# ======================
+.vscode/
+.idea/
+
+# ======================
+# Temp files
+# ======================
+*.tmp
+*.swp
+
+# ======================
+# Kaggle / archives
+# ======================
+*.zip
+*.gz
+
+# ======================
+# macOS metadata in subdirs
+# ======================
+**/.DS_Store
